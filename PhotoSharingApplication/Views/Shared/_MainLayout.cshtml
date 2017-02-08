@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <h1 class="site-page-title">Adventure Works Photo Sharing</h1>
+    <h1 class="site-page-title">Danske Memes Central</h1>
     <div class="login-controls">
         @if (Request.IsAuthenticated) {
             <div>
@@ -29,7 +29,7 @@
     <div class="clear-floats" />
 
     <div id="topmenu">
-        @Html.MvcSiteMap().Menu(false, true, true)
+        @Html.MvcSiteMap()..Menu(false, true, true)
     </div>
     
     <div id="breadcrumb">

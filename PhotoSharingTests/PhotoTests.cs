@@ -39,23 +39,7 @@ namespace PhotoSharingTests
             Assert.AreEqual(typeof(List<Photo>), result.Model.GetType());
         }
 
-        [TestMethod]
-        public void Test_GetImage_Return_Type()
-        {
-            //This test checks that the PhotoController GetImage action returns a FileResult
-            var context = new FakePhotoSharingContext();
-            context.Photos = new[] {
-                new Photo{ PhotoID = 1, PhotoFile = new byte[1], ImageMimeType = "image/jpeg" },
-                new Photo{ PhotoID = 2, PhotoFile = new byte[1], ImageMimeType = "image/jpeg" },
-                new Photo{ PhotoID = 3, PhotoFile = new byte[1], ImageMimeType = "image/jpeg" },
-                new Photo{ PhotoID = 4, PhotoFile = new byte[1], ImageMimeType = "image/jpeg" }
-            }.AsQueryable();
-
-            var controller = new PhotoController(context);
-            var result = controller.GetImage(1) as ActionResult;
-            Assert.AreEqual(typeof(FileContentResult), result.GetType());
-        }
-
+     
         [TestMethod]
         public void Test_DisplayByTitle_Return_Photo()
         {
