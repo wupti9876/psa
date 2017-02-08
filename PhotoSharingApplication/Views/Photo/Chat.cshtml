@@ -10,7 +10,7 @@
 @if (Model.PhotoFile != null) {
     <div class="photo-display">
         <a href="@Url.Action("Display", "Photo", new { id = Model.PhotoID })">
-            <img width="200" src="@Url.Action("GetImage", "Photo", new { id = Model.PhotoID })" />
+            <img width="200" src="@Model.AzurePath" />
         </a>
     </div>
 }
