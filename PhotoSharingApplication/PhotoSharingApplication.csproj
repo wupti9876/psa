@@ -214,6 +214,7 @@
     <Content Include="Images\path.JPG" />
     <None Include="Properties\PublishProfiles\alistairsphotosharing - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\alistairsphotosharing - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\victorpsa - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.6.4-vsdoc.js" />
     <Content Include="Scripts\ChatRoom.js" />
     <Content Include="Scripts\jquery-1.6.4.js" />
