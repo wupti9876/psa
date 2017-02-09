@@ -213,6 +213,7 @@
     <Content Include="Images\flower.JPG" />
     <Content Include="Images\orchard.JPG" />
     <Content Include="Images\path.JPG" />
+    <None Include="Properties\PublishProfiles\Adrianpsa - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\alistairsphotosharing - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\alistairsphotosharing - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\victorpsa - Web Deploy.pubxml" />
@@ -254,6 +255,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Nyeste\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
